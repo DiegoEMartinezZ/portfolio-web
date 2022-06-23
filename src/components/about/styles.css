@@ -32,11 +32,15 @@ p.info {
   padding: 0 40rem;
   color: #fff;
   margin: 5rem 0;
+  text-align: center;
 }
 
-h4.about-important {
+p.about-important {
   color: #3ae7ff;
-  font-size: 1.1rem;
+}
+
+p.special-text {
+  color: #ffd902;
 }
 
 section p.info a {
@@ -92,7 +96,7 @@ p.ability-description {
 
 section.project-preview {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 3rem;
   padding: 5rem;
   margin: auto;
@@ -178,6 +182,10 @@ footer {
     grid-template-columns: 0.5fr;
     margin-top: 2rem;
     padding: 1rem;
+  }
+
+  section.project-preview {
+    grid-template-columns: 1fr;
   }
 }
 

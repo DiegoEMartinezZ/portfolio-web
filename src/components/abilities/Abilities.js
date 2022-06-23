@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 import {
   faCircleCheck,
   faLaptop,
   faPalette,
   faWandSparkles,
-} from '@fortawesome/free-solid-svg-icons';
-import { AbilitiesSection } from './AbilitiesSection';
+} from "@fortawesome/free-solid-svg-icons";
+import { AbilitiesSection } from "./AbilitiesSection";
 
 export const Abilities = () => {
   return (
@@ -15,25 +15,25 @@ export const Abilities = () => {
         <AbilitiesSection
           icon={faLaptop}
           title="Responsivas"
-          description="Cada una de las aplicaciones que realizo pueden ser vistas desde pequeños a grandes dispositivos"
+          description="Cada una de las aplicaciones que realizo pueden ser vistas desde pequeños a grandes dispositivos."
         />
 
         <AbilitiesSection
           icon={faCircleCheck}
           title="Efectivas"
-          description="Logran el objetivo por el cual fueron diseñadas, llevando al usuario por una ruta clara e intuitiva"
+          description="Logran el objetivo por el cual fueron diseñadas, llevando al usuario por una ruta clara e intuitiva."
         />
 
         <AbilitiesSection
           icon={faWandSparkles}
           title="Innovadoras"
-          description="Excelente interacción con el ususario. Diseño UI/UX"
+          description="Excelente interacción con el ususario. Diseño UI/UX."
         />
 
         <AbilitiesSection
           icon={faPalette}
           title="Llamativas"
-          description="Gran combinación de colores que crean una experiencia agradable"
+          description="Gran combinación de colores que crean una experiencia agradable."
         />
       </section>
     </div>
